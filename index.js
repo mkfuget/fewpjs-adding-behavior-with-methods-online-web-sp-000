@@ -14,8 +14,26 @@ class Cat {
 
 class Dog {
   //...
+  constructor(name, sex)
+  {
+    this.name = name;
+    this.sex = sex;
+  }
+  speak(){
+    return this.name + "says woof!"
+  }
+
 }
 
 class Bird {
   //...
+  constructor(name, sex)
+  {
+    this.name = name;
+    this.sex = sex;
+  }
+  speak(){
+    return (bird.sex === "male" ? "It's me! "+this.name+"the parro1!" : this.name + "says squawk!"
+  }
+
 }
